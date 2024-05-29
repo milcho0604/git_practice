@@ -36,4 +36,14 @@ git checkout 커밋ID
 # 다시 현재의 master(브랜치)의 commit으로 return //원래 있던 위치로 
 git checkout master
 
+# git pull은 원격의 변경사항을 local로 다운로드(working directory까지 변경)
+git pull origin 브랜치명
 
+# git 작업 취소
+# working directory에서의 취소
+
+# staging area에서의 취소
+
+# commit 이후의 취소
+
+# push 이후의 취소
