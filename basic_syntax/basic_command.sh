@@ -62,4 +62,5 @@ git diff A브랜치 B브랜치
 
 # git fetch
 # 원격에 변경사항을 local에 가져오되 병합은 하지 않는 것
-# 비교 : git pull origin master와 git fetch origin master비교
+# 비교 : git pull origin master와 git fetch origin master비교 
+# fetch는 되고 merge는 안된 상황
