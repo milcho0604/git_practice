@@ -41,9 +41,11 @@ git pull origin 브랜치명
 
 # git 작업 취소
 # working directory에서의 취소
-
+git checkout .
 # staging area에서의 취소
-
+git reset
 # commit 이후의 취소
-
+git reset head~1
+git reset head^
 # push 이후의 취소
+git revert 커밋ID
