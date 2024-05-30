@@ -54,6 +54,8 @@ git reset head^
 # push 이후의 취소
 git revert 커밋ID
 
+
+
 # 버전별 비교 명령어 : diff
 # A를 기준으로 B가 어떤 변경이 있는지를 비교
 git diff A B
@@ -64,6 +66,7 @@ git diff A브랜치 B브랜치
 # 원격에 변경사항을 local에 가져오되 병합은 하지 않는 것
 # 비교 : git pull origin master와 git fetch origin master비교 
 # fetch는 되고 merge는 안된 상황
+git fetch --all
 
 # git stash : 작업중인 사항을 임시저장(충돌 상황에서 쓰이는 방법)
 git stash

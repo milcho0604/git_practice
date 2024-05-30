@@ -8,4 +8,6 @@ git checkout 브랜치명
 # 브랜치 목록 조회 및 현재 나의 브랜치
 git branch
 
-#
+# 브랜치 생성과 전환 동시에
+git checkout -b 브랜치명
+
