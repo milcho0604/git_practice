@@ -67,6 +67,7 @@ git diff A브랜치 B브랜치
 # 비교 : git pull origin master와 git fetch origin master비교 
 # fetch는 되고 merge는 안된 상황
 git fetch --all
+git fetch --all --prune
 
 # git stash : 작업중인 사항을 임시저장(충돌 상황에서 쓰이는 방법)
 git stash
