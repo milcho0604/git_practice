@@ -7,4 +7,5 @@ git checkout 브랜치명
 
 # 브랜치 목록 조회 및 현재 나의 브랜치
 git branch
+
 #
