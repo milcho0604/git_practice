@@ -1,8 +1,7 @@
 hello world1
 hello world2
-good boy
+good vscode
+hello world4
 hello world4
 hello world5
-hello world6
-hello world7
 restart
