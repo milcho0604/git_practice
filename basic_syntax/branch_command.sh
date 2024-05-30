@@ -11,5 +11,11 @@ git branch
 # 브랜치 생성과 전환 동시에
 git checkout -b 브랜치명
 
-# 브랜치를 통해서 push하고 꼭 아래 명령어를 해야함
-git fetch -all
+# 브랜치 삭제
+git branch -D 브랜치
+
+# 삭제한 브랜치 자동으로 없애기
+git fetch --all --prune
+
+# origin(원격)에서 받은 브랜치 다운(받기)
+git fetch --all
