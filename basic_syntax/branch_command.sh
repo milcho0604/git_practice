@@ -11,4 +11,5 @@ git branch
 # 브랜치 생성과 전환 동시에
 git checkout -b 브랜치명
 
-
+# 브랜치를 통해서 push하고 꼭 아래 명령어를 해야함
+git fetch -all
