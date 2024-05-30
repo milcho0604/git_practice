@@ -19,3 +19,4 @@ git fetch --all --prune
 
 # origin(원격)에서 받은 브랜치 다운(받기)
 git fetch --all
+
